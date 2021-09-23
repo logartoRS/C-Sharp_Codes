@@ -338,3 +338,33 @@ Console.WriteLine("String 2: " + stringText2.ToString());
 > String 1: Character1
 > 
 > String 2: Character2
+
+## Notes
+
+Different methods we use in this code:
+
+### Concatenate
+
+Use it to add strings.
+
+> String + String = String
+> 
+> Example: "A" + "B" = "AB"
+
+### ToString()
+
+Transform an *Object* to a *String*.
+
+> (int).ToString() = String
+>
+> Example: 24.ToString() = "24"
+
+### Console.WriteLine()
+
+Function to write to the console.
+
+> cw (use *Tab* x2) -> Console.WriteLine()
+
+### Console.ReadLine()
+
+Function to read the console or wait the process.
