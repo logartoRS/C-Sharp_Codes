@@ -5,7 +5,7 @@ In this part we will see the different types of variables that are supported in 
 
 ## Types of variable
 
-* **Byte:** Is a unsigned integer, Byte is in the range 0 to 255.
+* **Byte:** Is a unsigned integer, *byte* is in the range 0 to 255.
 
   ```c#
   byte byteNumber1 = 0;
@@ -25,7 +25,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Byte Number 2: 255
 
-* **Sbyte:** Is a signed integer, Byte is in the range -128 to 127.
+* **Sbyte:** Is a signed integer, *sbyte* is in the range -128 to 127.
 
   ```c#
   sbyte sbyteNumber1 = -128;
@@ -45,7 +45,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Sbyte Number 2: 127
 
-* **Int:** Is a signed integer, Byte is in the range -2147483648 to 2147483647.
+* **Int:** Is a signed integer, *int* is in the range -2147483648 to 2147483647.
 
   ```c#
   int intNumber1 = -2147483648;
@@ -65,7 +65,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Int Number 2: 2147483647
 
-* **Uint:** Is a unsigned integer, Byte is in the range 0 to 4294967295.
+* **Uint:** Is a unsigned integer, *uint* is in the range 0 to 4294967295.
 
   ```c#
   uint uintNumber1 = 0;
@@ -85,7 +85,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Uint Number 2: 4294967295
 
-* **Short:** Is a signed integer, Byte is in the range -32768 to 32767.
+* **Short:** Is a signed integer, *short* is in the range -32768 to 32767.
 
   ```c#
   short shortNumber1 = -32767;
@@ -105,7 +105,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Short Number 2: 32767
 
-* **Ushort:** Is a unsigned integer, Byte is in the range 0 to 65535.
+* **Ushort:** Is a unsigned integer, *ushort* is in the range 0 to 65535.
 
   ```c#
   ushort ushortNumber1 = 0;
@@ -125,8 +125,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Ushort Number 2: 65535
 
-* **Long:** Is a signed integer, Byte is in the range 	
--922337203685477508 to 922337203685477507.
+* **Long:** Is a signed integer, *long* is in the range -922337203685477508 to 922337203685477507.
 
   ```c#
   long longNumber1 = -922337203685477508;
@@ -146,8 +145,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Long Number 2: 922337203685477507
 
-* **Ulong:** Is a signed integer, Byte is in the range 	
-0 to 18446744073709551615.
+* **Ulong:** Is a signed integer, *ulong* is in the range 0 to 18446744073709551615.
 
   ```c#
   ulong ulongNumber1 = 0;
@@ -167,8 +165,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Ulong Number 2: 18446744073709551615
 
-* **Float:** Is a single precision floating point type, Byte is in the range 
--3.402823e38 to 3.402823e38.
+* **Float:** Is a single precision floating point type, *float* is in the range -3.402823e38 to 3.402823e38.
 
   ```c#
   float floatNumber1 = -3.402823f;
@@ -188,8 +185,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Float Number 2: 3.402823
 
-* **Double:** Is a double precision floating point type, Byte is in the range 
--1.79769313486232e308 to 1.79769313486232e308.
+* **Double:** Is a double precision floating point type, *double* is in the range -1.79769313486232e308 to 1.79769313486232e308.
 
   ```c#
   double doubleNumber1 = -1.79769313486232;
@@ -209,7 +205,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Double Number 2: 1.79769313486232
 
-* **Decimal:** It is precise fractional or integral type, which can represent decimal numbers with 29 significant digital, Byte is in the range ±1.0 × 10e−28 to ±7.9 × 10e28.
+* **Decimal:** It is precise fractional or integral type, which can represent decimal numbers with 29 significant digital, *decimal* is in the range ±1.0 × 10e−28 to ±7.9 × 10e28.
 
   ```c#
   decimal decimalNumber1 = -5.23456897M;
@@ -249,7 +245,7 @@ In this part we will see the different types of variables that are supported in 
   > 
   > Char 2: G
 
-* **Bool:** Is a logical boolean type, It can only take values of true or false.
+* **Bool:** Is a logical boolean type, *bool* can only take values of true or false.
 
   ```c#
   bool boolCharacter1 = false;
