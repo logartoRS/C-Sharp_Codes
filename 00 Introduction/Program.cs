@@ -6,7 +6,7 @@ namespace _00_Introduction
 	{
 		static void Main(string[] args)
 		{
-			// Variables Numéricas
+			// Numerical variables
 			byte byteNumber1 = 0;
 			byte byteNumber2 = 255;
 
@@ -40,25 +40,25 @@ namespace _00_Introduction
 			decimal decimalNumber1 = -5.23456897M;
 			decimal decimalNumber2 = 5.23456897M;
 
-			// Caracter unicode
+			// Unicode characters
 			char charCharacter1 = 'A';
 			char charCharacter2 = 'G';
 
-			// Variable Booleana
+			// Boolean variable
 			bool boolCharacter1 = false;
 			bool boolCharacter2 = true;
 
-			// Variable Object
+			// Variable object
 			object objectCharacter1 = "A";
 			object objectCharacter2 = 24;
 			object objectCharacter3 = true;
 
-			// Variable String
+			// Variable string
 			string stringText1 = "Character1";
 			string stringText2 = "Character2";
 
-			// Impresion de las variables
-			Console.WriteLine("Variables numéricas:");
+			// Variables printing
+			Console.WriteLine("Numerical variables:");
 			Console.WriteLine("Byte Number 1: " + byteNumber1.ToString());
 			Console.WriteLine("Byte Number 2: " + byteNumber2.ToString());
 			Console.WriteLine("Sbyte Number 1: " + sbyteNumber1.ToString());
@@ -82,15 +82,15 @@ namespace _00_Introduction
 			Console.WriteLine("Decimal Number 1: " + decimalNumber1.ToString());
 			Console.WriteLine("Decimal Number 2: " + decimalNumber2.ToString());
 
-			Console.WriteLine("\nVariables char:");
+			Console.WriteLine("\nChar variables:");
 			Console.WriteLine("Char 1: " + charCharacter1.ToString());
 			Console.WriteLine("Char 2: " + charCharacter2.ToString());
 
-			Console.WriteLine("\nVariable Booleana:");
+			Console.WriteLine("\nBoolean variables:");
 			Console.WriteLine("Bool 1: " + boolCharacter1.ToString());
 			Console.WriteLine("Bool 2: " + boolCharacter2.ToString());
 
-			Console.WriteLine("\nVariable String:");
+			Console.WriteLine("\nVariable strings:");
 			Console.WriteLine("String 1: " + stringText1.ToString());
 			Console.WriteLine("String 2: " + stringText2.ToString());
 
