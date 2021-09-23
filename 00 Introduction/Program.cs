@@ -89,6 +89,11 @@ namespace _00_Introduction
 			Console.WriteLine("\nBoolean variables:");
 			Console.WriteLine("Bool 1: " + boolCharacter1.ToString());
 			Console.WriteLine("Bool 2: " + boolCharacter2.ToString());
+			
+			Console.WriteLine("\nVariable Objects:");
+			Console.WriteLine("Object 1: " + objectCharacter1.ToString());
+			Console.WriteLine("Object 2: " + objectCharacter2.ToString());
+			Console.WriteLine("Object 3: " + objectCharacter3.ToString());
 
 			Console.WriteLine("\nVariable strings:");
 			Console.WriteLine("String 1: " + stringText1.ToString());
