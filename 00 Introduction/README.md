@@ -6,8 +6,10 @@ In this part we will see the different types of variables that are supported in 
 ## Types of variable
 
 * **Byte:** Is a unsigned integer, Byte is in the range 0 to 255.
-
+* 
 ```c#
 byte byteNumber1 = 0;
 byte byteNumber2 = 255;
 ```
+
+That we can print on the console to see the numbers.
