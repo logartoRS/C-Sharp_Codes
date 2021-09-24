@@ -1,6 +1,6 @@
 # Variables
 
-In this part we will see the different types of variables that are supported in base C #. In simplified form, variables are names that represent spaces in memory, we can use these variables by referring to their names, and depending on the type of variable this space in memory can be larger or smaller.
+In simplified form, variables are names that represent spaces in memory, we can use these variables by referring to their names, and depending on the type of variable this space in memory can be larger or smaller. In this part we will see the different types of variables that are supported in base C #.
 
 ## Types of variable
 
