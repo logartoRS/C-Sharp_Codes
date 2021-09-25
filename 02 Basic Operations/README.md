@@ -8,7 +8,7 @@ int number2 = 98;
 
 ## Postfix increment operator
 
-Execution (++number) adds 1 to the "number". This execution returns "number + 1" after being called.
+Execution (++number) adds 1 to the "number". This execution returns "number + 1" after completion of the call.
 
 ```c#
 Console.WriteLine("Postfix increment operator (i++):");
@@ -24,5 +24,26 @@ Console.WriteLine(number1);
 > 24
 > 
 > 24
+> 
+> 25
+
+## Prefix increment operator
+
+Execution (number++) adds 1 to the "number". This execution returns "number + 1" before completion of the call.
+
+```c#
+Console.WriteLine("Prefix increment operator (++i):");
+Console.WriteLine(number1);
+Console.WriteLine(++number1);
+Console.WriteLine(number1);
+```
+
+**Result:**
+
+> Prefix increment operator (++i):
+> 
+> 24
+> 
+> 25
 > 
 > 25
