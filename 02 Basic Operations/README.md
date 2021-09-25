@@ -29,7 +29,7 @@ Console.WriteLine(number1);
 
 ## Prefix increment operator
 
-Execution (number++) adds 1 to the "number". This execution returns "number + 1" before completion of the call.
+Execution (number++) adds 1 to the "number". This execution returns "number + 1" after completion of the call.
 
 ```c#
 Console.WriteLine("Prefix increment operator (++i):");
@@ -47,3 +47,45 @@ Console.WriteLine(number1);
 > 25
 > 
 > 25
+
+## Postfix decrement operator
+
+Execution (number--) subtracts 1 from "number". This execution returns "number - 1" before completion of the call.
+
+```c#
+Console.WriteLine("\nPostfix decrement operator (i--):");
+Console.WriteLine(number1);
+Console.WriteLine(number1--);
+Console.WriteLine(number1);
+```
+
+**Result:**
+
+> Postfix decrement operator (i--):
+> 
+> 24
+> 
+> 24
+> 
+> 23
+
+## Prefix decrement operator
+
+Execution (--number) subtracts 1 from "number". This execution returns "number - 1" after completion of the call.
+
+```c#
+Console.WriteLine("\nPrefix decrement operator (--i):");
+Console.WriteLine(number1);
+Console.WriteLine(--number1);
+Console.WriteLine(number1);
+```
+
+**Result:**
+
+> Prefix decrement operator (--i):
+> 
+> 24
+> 
+> 23
+> 
+> 23
