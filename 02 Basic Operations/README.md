@@ -179,6 +179,4 @@ Is used to convert a string to a number.
 
 > int vumber = Int32.Parse(String)
 > 
-> Example:
-> 
-> number1 = Int32.Parse("5") -> number1 = 5
+> Example: number1 = Int32.Parse("5") -> number1 = 5
