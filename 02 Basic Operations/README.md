@@ -6,7 +6,7 @@ int number1 = 24;
 int number2 = 98;
 ```
 
-## Postfix increment operator (++number)
+### Postfix increment operator (++number)
 
 Execution (++number) adds 1 to the "number". This execution returns "number + 1" after completion of the call.
 
@@ -27,7 +27,7 @@ Console.WriteLine(number1);
 > 
 > 25
 
-## Prefix increment operator (number++)
+### Prefix increment operator (number++)
 
 Execution (number++) adds 1 to the "number". This execution returns "number + 1" after completion of the call.
 
@@ -48,7 +48,7 @@ Console.WriteLine(number1);
 > 
 > 25
 
-## Postfix decrement operator (number--)
+### Postfix decrement operator (number--)
 
 Execution (number--) subtracts 1 from "number". This execution returns "number - 1" before completion of the call.
 
@@ -69,7 +69,7 @@ Console.WriteLine(number1);
 > 
 > 23
 
-## Prefix decrement operator (--number)
+### Prefix decrement operator (--number)
 
 Execution (--number) subtracts 1 from "number". This execution returns "number - 1" after completion of the call.
 
@@ -90,7 +90,7 @@ Console.WriteLine(number1);
 > 
 > 23
 
-## Addition operator [(number1 + number2) or (number1 += number2 => number1 = number1 + number2)]
+### Addition operator [(number1 + number2) or (number1 += number2 -> number1 = number1 + number2)]
 
 ```c#
 Console.WriteLine("\nAddition operator (+):");
@@ -104,7 +104,7 @@ Console.WriteLine(number1 += number2);
 > 122
 > 122
 
-## Subtraction operator [(number1 - number2) or (number1 -= number2 => number1 = number1 - number2)]
+### Subtraction operator [(number1 - number2) or (number1 -= number2 -> number1 = number1 - number2)]
 
 ```c#
 Console.WriteLine("\nSubtraction operator (-):");
@@ -120,7 +120,7 @@ Console.WriteLine(number1 -= number2);
 > 
 > -74
 
-## Multiplication operator (number1 * number2)
+### Multiplication operator (number1 * number2)
 
 ```c#
 Console.WriteLine("\nMultiplication operator (*):");
@@ -132,7 +132,7 @@ Console.WriteLine(number1 * number2);
 > Multiplication operator (*):
 > 2352
 
-## Division operator (number1 / number2)
+### Division operator (number1 / number2)
 
 The result is the quotient of the division between "number1" and "number2". With this operator we have to be careful with the type of dividend data.
 
@@ -153,7 +153,7 @@ Console.WriteLine((decimal)number1 / number2);
 > 
 > 0.244897959183673469387755102
 
-## Remainder operator (number1 % number2)
+### Remainder operator (number1 % number2)
 
 The result is the residue of the division between "number1" and "number2".
 
@@ -170,3 +170,15 @@ Console.WriteLine(number2 % number1);
 > 24
 > 
 > 2
+
+## Notes
+
+### Parsing
+
+Is used to convert a string to a number.
+
+> int vumber = Int32.Parse(String)
+> 
+> Example:
+> 
+> number1 = Int32.Parse("5") -> number1 = 5
