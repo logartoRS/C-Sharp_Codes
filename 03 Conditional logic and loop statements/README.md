@@ -137,3 +137,96 @@ while (number3 < number2)
 > 
 > 23
 
+### DO WHILE statement
+
+It is the same idea as the WHILE statement, but always execute the code in parentheses once, if the condition is TRUE, execute the code many times until the condition is FALSE.
+
+```c#
+number3 = 8;
+do
+{
+  Console.WriteLine(number3);
+  number3++;
+} while (number3 > number2);
+```
+
+**Result:**
+
+> 8
+
+```c#
+number3 = 8;
+do
+{
+  Console.WriteLine(number3);
+  number3++;
+} while (number3 < number2);
+```
+
+**Result:**
+
+> 8
+> 
+> 9
+> 
+> 10
+> 
+> 11
+> 
+> 12
+> 
+> 13
+> 
+> 14
+> 
+> 15
+> 
+> 16
+> 
+> 17
+> 
+> 18
+> 
+> 19
+> 
+> 20
+> 
+> 21
+> 
+> 22
+> 
+> 23
+
+### FOR statements
+
+It is a statement that executes a code many times depending on a condition, this condition is generally an *int*, that we decide how this *int* is going to change execution after execution.
+
+Form: for (variable *int*, condition, how the variable changes)
+
+```c#
+number3 = 8;
+for (int i = 0; i <= number3; i++)
+{
+  Console.WriteLine("Numero: " + i.ToString());
+}
+```
+
+**Result:**
+
+> Numero: 0
+> 
+> Numero: 1
+> 
+> Numero: 2
+> 
+> Numero: 3
+> 
+> Numero: 4
+> 
+> Numero: 5
+> 
+> Numero: 6
+> 
+> Numero: 7
+> 
+> Numero: 8
