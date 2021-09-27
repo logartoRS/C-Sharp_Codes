@@ -85,6 +85,8 @@ namespace _03_Conditional_logic_and_loop_statements
 			{
 				Console.WriteLine("Numero: " + i.ToString());
 			}
+			
+			Console.ReadLine();
 		}
 	}
 }
