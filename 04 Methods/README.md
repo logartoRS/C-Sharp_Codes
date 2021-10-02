@@ -146,9 +146,13 @@ boiedMethod();
 
 ## Notes
 
+### Static
+
+We use the methods that start with the word *static*, *static* allows us to use the method in the main part of the code because it is also *static*. 
+
 ### Access Modifiers
 
-We use the methods that start with the word *static*, *static* is an access modifier that allows us to use the method in the main part of the code because it is also *static*. But it is not the only access modifier, in C # we have different types and they are:
+Access modifier, in C # we have different types and they are:
 
 - **Public:** the code can be accessed by any other code in the same program or assembly that references it.
 - **Internal:** the code can be accessed through any other code in the same program, but not from another assembly.
