@@ -24,7 +24,7 @@ The content of the class is not defined in a specific structure. We can write th
 
 ### Properties, Get and Set
 
-A property is a member in code that has a mechanism to use as read or write. Properties are normally to be used in protected mode, it is not a condition, but it helps us that the property cannot be directly accessed and used.
+A property is a member in code that has a mechanism to use as read or write. Properties are normally to be used in protected mode, it is not a condition, but it helps us that the property cannot be directly accessed and used. We can use Gets and Sets to access properties.
 
 ```c#
 // Properties
@@ -77,5 +77,28 @@ public int Weight
   {
     weight = value;
   }
+}
+```
+
+### Constructors
+The constructor is the part of the class that is used to create the object. The class can have many different constructors, and each constructor executes the code it contains. It is normal to use constructors to give the object the capacity to value the properties of the object determined by the class. It is also normal to create a default constructor that gives the object the default values of the properties.
+
+```c#
+// Default constructor
+public Animal()
+{
+  this.name = "Dog";
+  this.scientificName = "Canis familiaris";
+  this.size = 50;
+  this.weight = 20;
+}
+
+// Parameterized constructor
+public Animal(String name, String scientificName, int size, int weight)
+{
+  this.name = name;
+  this.scientificName = scientificName;
+  this.size = size;
+  this.weight = weight;
 }
 ```
