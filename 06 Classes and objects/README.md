@@ -181,7 +181,7 @@ koala.description();
 > Average size: 50 cm
 > 
 > Average weight: 20 Kg
-> 
+
 > Name: Cat
 > 
 > Scientific name: Felis catus
@@ -189,7 +189,7 @@ koala.description();
 > Average size: 40 cm
 > 
 > Average weight: 4 Kg
-> 
+
 > Name: Koala
 > 
 > Scientific name: Phascolarctos cinereus
