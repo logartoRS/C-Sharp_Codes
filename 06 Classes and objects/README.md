@@ -116,3 +116,79 @@ public void description()
   Console.WriteLine("Average weight: {0} Kg", this.weight);
 }
 ```
+
+## Use the class
+
+In the main script or another project script, we can create objects by declaring the class and the name of the object. The object can be created with the constructor of the class if contains it.
+
+```c#
+// Use of the class through an object
+Animal koala = new Animal();
+
+// Use the constructors
+Animal dog = new Animal();
+Animal cat = new Animal("Cat", "Felis catus", 40, 4);
+```
+
+### Use the Gets and Sets
+
+We use the Gets and Sets to access the property of the object.
+
+```c#
+// Use the Set
+koala.Name = "Koala";
+koala.ScientificName = "Phascolarctos cinereus";
+koala.Size = 70;
+koala.Weight = 15;
+
+// Use the Get
+Console.WriteLine(dog.Name);
+Console.WriteLine(dog.ScientificName);
+Console.WriteLine(cat.Name);
+Console.WriteLine(cat.ScientificName);
+Console.WriteLine(koala.Name);
+Console.WriteLine(koala.ScientificName);
+```
+
+**Result:**
+> Dog
+> Canis familiaris
+> Cat
+> Felis catus
+> Koala
+> Phascolarctos cinereus
+
+### Use the methods
+
+```c#
+// Use the methods
+dog.description();
+cat.description();
+koala.description();
+```
+
+**Result:**
+
+> Name: Dog
+> 
+> Scientific name: Canis familiaris
+> 
+> Average size: 50 cm
+> 
+> Average weight: 20 Kg
+> 
+> Name: Cat
+> 
+> Scientific name: Felis catus
+> 
+> Average size: 40 cm
+> 
+> Average weight: 4 Kg
+> 
+> Name: Koala
+> 
+> Scientific name: Phascolarctos cinereus
+> 
+> Average size: 70 cm
+> 
+> Average weight: 15 Kg
