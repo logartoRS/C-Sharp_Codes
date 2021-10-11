@@ -102,3 +102,17 @@ public Animal(String name, String scientificName, int size, int weight)
   this.weight = weight;
 }
 ```
+
+### Methods
+Created objects have the ability to access methods, these methods must be declared in the class code.
+
+```c#
+// Methods
+public void description()
+{
+  Console.WriteLine("Name: {0}", this.name);
+  Console.WriteLine("Scientific name: {0}", this.scientificName);
+  Console.WriteLine("Average size: {0} cm", this.size);
+  Console.WriteLine("Average weight: {0} Kg", this.weight);
+}
+```
