@@ -152,10 +152,15 @@ Console.WriteLine(koala.ScientificName);
 
 **Result:**
 > Dog
+> 
 > Canis familiaris
+> 
 > Cat
+> 
 > Felis catus
+> 
 > Koala
+> 
 > Phascolarctos cinereus
 
 ### Use the methods
