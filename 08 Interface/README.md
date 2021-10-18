@@ -137,4 +137,5 @@ Console.ReadLine();
 DateTime is a class of C# that use the time with different methods.
 
 **DateTime.Today:** Get the time of today.
+
 **Datetime.Ticks:** Gets the number of ticks taht represent the time.
