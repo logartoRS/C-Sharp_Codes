@@ -12,8 +12,6 @@ try
   builder.InitialCatalog = "<database>";
   builder.IntegratedSecurity = true;
 
-  //Console.WriteLine(builder.ConnectionString);
-
   using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
   {
     String sql = "SELECT * FROM Paciente";
